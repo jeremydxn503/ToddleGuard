@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F591658D89494F5885429CEE /* ToddleGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F131816A9042148E9A3FC0 /* ToddleGuardApp.swift */; };
+		17DCB13400A942E0A42EDC6A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDA4B48137B499AA3C557B9 /* AppState.swift */; };
+		EBCCC99330644BC9BC54A6CF /* EventTapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFE9A5AC034E6CA76ED692 /* EventTapManager.swift */; };
+		5DA0A9B3A1864B44AFED723C /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C50307698443048EFD0991 /* MenuBarController.swift */; };
+		5BCA33DB1C354A3F8275BE1C /* AccessibilityPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF692FCAD64F9C8E7383C6 /* AccessibilityPermission.swift */; };
+		2742252DB75145FC8D318919 /* LoginItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0320140F11748D4972DAAC6 /* LoginItemManager.swift */; };
+		37D2A75F00134E33AC31303C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B4E5BD44E54DB28ED4CCB4 /* OnboardingView.swift */; };
+		22A0F9DA113A4019974564FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2788D9813E4FD09497ED9A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F05895E360548DA9898EB86 /* ToddleGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddleGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F131816A9042148E9A3FC0 /* ToddleGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToddleGuardApp.swift; sourceTree = "<group>"; };
+		5BDA4B48137B499AA3C557B9 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4AAFE9A5AC034E6CA76ED692 /* EventTapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTapManager.swift; sourceTree = "<group>"; };
+		44C50307698443048EFD0991 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		DACF692FCAD64F9C8E7383C6 /* AccessibilityPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermission.swift; sourceTree = "<group>"; };
+		D0320140F11748D4972DAAC6 /* LoginItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemManager.swift; sourceTree = "<group>"; };
+		C3B4E5BD44E54DB28ED4CCB4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0C2788D9813E4FD09497ED9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80447EF750A3408299957DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5FF8C9D93B488C950ECC75 /* ToddleGuard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToddleGuard.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35056FCA7DE3448C866D2C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000001 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000002 /* ToddleGuard */,
+				A10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000002 /* ToddleGuard */ = {
+			isa = PBXGroup;
+			children = (
+				B4F131816A9042148E9A3FC0 /* ToddleGuardApp.swift */,
+				5BDA4B48137B499AA3C557B9 /* AppState.swift */,
+				4AAFE9A5AC034E6CA76ED692 /* EventTapManager.swift */,
+				44C50307698443048EFD0991 /* MenuBarController.swift */,
+				DACF692FCAD64F9C8E7383C6 /* AccessibilityPermission.swift */,
+				D0320140F11748D4972DAAC6 /* LoginItemManager.swift */,
+				C3B4E5BD44E54DB28ED4CCB4 /* OnboardingView.swift */,
+				0C2788D9813E4FD09497ED9A /* Assets.xcassets */,
+				80447EF750A3408299957DB6 /* Info.plist */,
+				0A5FF8C9D93B488C950ECC75 /* ToddleGuard.entitlements */,
+			);
+			path = ToddleGuard;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F05895E360548DA9898EB86 /* ToddleGuard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000010 /* ToddleGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000030 /* Build configuration list for PBXNativeTarget "ToddleGuard" */;
+			buildPhases = (
+				A10000000000000000000011 /* Sources */,
+				35056FCA7DE3448C866D2C77 /* Frameworks */,
+				A10000000000000000000012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToddleGuard;
+			productName = ToddleGuard;
+			productReference = 1F05895E360548DA9898EB86 /* ToddleGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A10000000000000000000020 /* Build configuration list for PBXProject "ToddleGuard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000001 /* Root */;
+			productRefGroup = A10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000010 /* ToddleGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A0F9DA113A4019974564FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F591658D89494F5885429CEE /* ToddleGuardApp.swift in Sources */,
+				17DCB13400A942E0A42EDC6A /* AppState.swift in Sources */,
+				EBCCC99330644BC9BC54A6CF /* EventTapManager.swift in Sources */,
+				5DA0A9B3A1864B44AFED723C /* MenuBarController.swift in Sources */,
+				5BCA33DB1C354A3F8275BE1C /* AccessibilityPermission.swift in Sources */,
+				2742252DB75145FC8D318919 /* LoginItemManager.swift in Sources */,
+				37D2A75F00134E33AC31303C /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000000000000000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A10000000000000000000031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToddleGuard/ToddleGuard.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ToddleGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.ToddleGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToddleGuard/ToddleGuard.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ToddleGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeremy.ToddleGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000020 /* Build configuration list for PBXProject "ToddleGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000021 /* Debug */,
+				A10000000000000000000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000030 /* Build configuration list for PBXNativeTarget "ToddleGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000031 /* Debug */,
+				A10000000000000000000032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000000 /* Project object */;
+}
